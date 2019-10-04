@@ -1,1 +1,7 @@
+Diagnostics Experience Notes
+App Service Linux Containers
+.Net Core 3.0
+
+https://aka.ms/diagexp1
+
 1.  
