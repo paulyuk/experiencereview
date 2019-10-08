@@ -2,8 +2,11 @@ Diagnostics Experience Notes
 App Service Linux Containers
 .Net Core 3.0
 
-https://aka.ms/diagexp1
+This page: https://aka.ms/diagexp1
+Source code: https://github.com/paulyuk/BasicImageGallery/tree/master/CoreImageGallery/Deploy/CoreImageGalleryARM
+Video: https://web.microsoftstream.com/video/51b4d961-14c5-4812-b62c-6ae5d562981c
 
+<<<<<<< HEAD
 1.	Logs are off by default
 2.	have app logs link to actual logs
 3.	special .net core 3 metrics to be exposed, my custom metrics
@@ -12,3 +15,14 @@ https://aka.ms/diagexp1
 6.	startup failure, in functions, very painful and no context
 7.	links are broken to app insights blade in portal for Linux
 8.	app service failed request monitoring has gaps compared to functions
+=======
+Issues & Opportunities
+1. colors are hard to contrast for metrics
+2. startup failures should have special case detector, metrics and errors for startup failures when every request results in failures
+3. Logs are off by default for Linux
+4. App logs blade needs to link to actual logs
+5. App Insights blade link broken in portal for Linux
+6. share functions basic monitoring of requests back with app service
+7. startup failure, in functions, very painful and no context
+8. special .net core 3 metrics should be exposed, also how to get my custom metrics
+>>>>>>> 6265e944280b1840fcec1312be3c6f5d396c181f
